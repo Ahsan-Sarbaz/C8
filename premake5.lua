@@ -7,7 +7,7 @@ project "CHIP8"
     kind "ConsoleApp"
     language "C++"
     targetdir "build/%{cfg.buildcfg}"
-
+    links {"dl", "GL", "SDL2"}
     files { "src/**.h", "src/**.cpp" }
 
     filter "configurations:Debug"

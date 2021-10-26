@@ -425,3 +425,6 @@ FodyWeavers.xsd
 *.sln
 *.vcxproj
 makefile
+premake5
+*.make
+Makefile
